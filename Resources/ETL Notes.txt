@@ -1,0 +1,60 @@
+Check data_etl as sample.
+
+Extract
+ - csv to data frame
+ - json to data frame
+
+Transform
+ - data frame to SQL with SQLaclhemy
+
+Load
+- join two or more tables in SQL
+
+
+
+Traffic data
+
+Accident data by state
+  Frequency
+  Severity
+     Physical Damage
+     Bodily Injury
+     Property Damage
+     Deaths
+
+Commercial / Personal split - Do cars have more increases than cars or vice versa?
+motorcycles?
+
+
+Other injuries - pedestrian / bicycle
+
+Causes/Factors
+   *Gas Prices
+   Distracted Driving
+   Additional car enhancmenets
+   Increase in miles driven (VMT)
+   Personal behavior
+   Smart Cars - auto braking / steering
+   Data by census type - rural / urban / suburban
+
+
+
+
+Sources
+https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812451
+NHTSA (National Center for Statistics and Analysis)
+Traffic Safety Facts Publications
+
+FARS - Fatalities Analysis Reporting System
+GES / CRSS
+
+
+Next Steps:
+  Check Weather APIs
+  Check State Crash Reports - https://cdan.nhtsa.gov/STSI.htm#
+  Traffic Safety Annual Reports  - https://cdan.nhtsa.gov/tsftables/tsfar.htm#
+  What is St_Case field?
+  GES / CRSS JSON
+      
+Source for Seasonal VMT
+https://www.fhwa.dot.gov/policyinformation/travel_monitoring/17dectvt/17dectvt.xls
